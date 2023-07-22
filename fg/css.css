@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* хеадер */
+
+.header-div{
+    padding-left:150px;
+    display: flex;
+}
+
+
+.header-div2{
+    margin-left: 500px;
+    padding-top: 17px;
+}
+
+
+.header-p{
+color: #95E1D3;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 17px;
+}
+
+.header-a{
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-a{
+    padding: 10px;
+}
+
+.header-a:hover
+{
+color:#F38181;
+}
+/* секція герой */
+
+.section{
+    margin-top:81px;
+margin-left: 500px;
+}
+
+.section-h2{
+    color: #333;
+font-family: Kaushan Script;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.section-h1{
+    margin-top:20px;
+    color: #333;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+margin-bottom:85px;
+}
+/* секція2 */
+
+.section-2{
+    margin-top:109px;
+}
+
+.section-2-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.section-2-li:not(:nth-child(3n+2)){
+    margin-right:70px ;
+}
+
+.section-2-li:not(:nth-child(3n+2)){
+    margin-bottom:70px;
+}
+
+.section-2-h3{
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+}
+
+.section-2-p{
+    color: #B6B6B6;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+/*  */
+.section-w-div{
+    margin-left: 15px;
+}
+
+.section-w-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section-w-li:not(:last-child){
+margin-right:30px;
+}
+
+.section-ww-p{
+    color: #B6B6B6;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/*  */
+.footer{
+margin-top: 80px;
+padding-left:150px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.footer-p{
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 20px;
+}
+
+.footer-button{
+margin-right: 150px;
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #95E1D3;
+}
+
+
+.button-txt{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
